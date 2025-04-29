@@ -10,7 +10,7 @@
 
 @layer base {
   html {
-    font-family: "Avenir Book", system-ui, sans-serif;
+    font-family: "sans", system-ui, sans-serif;
   }
 }
 
