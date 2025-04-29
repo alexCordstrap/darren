@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@supports (font: -apple-system-body) and (-webkit-appearance: none) {
+  img[loading="lazy"] {
+    clip-path: inset(0.6px);
+  }
+}
+
+@layer base {
+  html {
+    font-family: "Avenir Book", system-ui, sans-serif;
+  }
+}
+
+@font-face {
+  font-family: 'Avenir Book';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/public/Avenir-Book.woff2') format('woff2'),
+       url('/public/Avenir-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Avenir Heavy';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/public/Avenir-Heavy.woff2') format('woff2'),
+       url('/public/Avenir-Heavy.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Avenir Light';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/public/Avenir-Light.woff2') format('woff2'),
+       url('/public/Avenir-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Avenir Light Oblique';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/public/Avenir-LightOblique.woff2') format('woff2'),
+       url('/public/Avenir-LightOblique.woff') format('woff');
+}
